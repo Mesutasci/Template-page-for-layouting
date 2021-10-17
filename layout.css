@@ -66,16 +66,14 @@ main {
   align-items: center;
   width: 341px;
   height: 100%;
-  border: 1px solid white;
 }
 #image-small {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   width: 219px;
   height: 100%;
-  border: 1px solid white;
 }
 /* The layout of the sections of the 6. box/container */
 #cont-button {

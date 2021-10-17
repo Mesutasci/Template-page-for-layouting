@@ -34,7 +34,6 @@
   border-bottom: 12px solid white;
   transform: rotate(90deg);
 }
-
 /* Styling the menu-list container*/
 #menu-list {
   background-color: rgb(117, 178, 247);
@@ -44,13 +43,11 @@
   height: 12px;
   background-color: white;
 }
-
 /* Mobile container */
 #mobile {
   border-radius: 10px;
   background-color: white;
 }
-
 hr {
   width: 48px;
   height: 1px;
@@ -68,4 +65,57 @@ hr {
   margin: 8px;
   border: 1px solid rgb(117, 178, 247);
   border-radius: 50%;
+}
+/* image containers */
+.landscape {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 104px;
+  height: 68px;
+}
+.sun {
+  display: flex;
+  align-items: flex-start;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: rgb(117, 178, 247);
+}
+.container-pyramid {
+  display: flex;
+  align-items: flex-end;
+  margin-top: -8px;
+  width: 104px;
+  height: 51px;
+}
+.pyramid-1 {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 25px solid rgb(117, 178, 247);
+}
+.pyramid-2 {
+  width: 0;
+  height: 0;
+  margin-left: -17px;
+  border-left: 36px solid transparent;
+  border-right: 36px solid transparent;
+  border-bottom: 50px solid rgb(117, 178, 247);
+}
+#image-big > .landscape {
+  height: 80%;
+}
+#slider {
+  display: flex;
+  height: auto;
+}
+.point {
+  display: inline-flex;
+  height: 6px;
+  width: 6px;
+  margin-right: 4px;
+  border-radius: 50%;
+  background-color: rgb(117, 178, 247);
 }
