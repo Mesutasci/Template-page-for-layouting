@@ -88,7 +88,7 @@ main {
 }
 
 /* The layout of the footer */
-.row-lower {
+.row-last {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
@@ -97,19 +97,16 @@ main {
 }
 #search {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 473px;
   height: 100%;
-  border: 1px solid white;
 }
 #social-accounts {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 219px;
   height: 100%;
-  border: 1px solid white;
+  border: 1px solid red;
 }
