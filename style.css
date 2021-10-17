@@ -1,0 +1,114 @@
+/* Base settings */
+body,
+main {
+  margin: 0;
+  padding: 0;
+}
+/* Colors */
+body {
+  background-color: rgb(117, 178, 247);
+}
+
+/* Layout */
+main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 500px;
+}
+.row-upper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  border: 1px solid red;
+}
+#box-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 185px;
+  height: 67px;
+  border: 1px solid white;
+}
+#box-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 67px;
+  border: 1px solid white;
+}
+#box-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 99px;
+  border: 1px solid white;
+}
+
+.row-middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* margin-top: -20px; */
+  width: 100%;
+  height: 160px;
+  border: 1px solid red;
+}
+#box-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 160px;
+  border: 1px solid white;
+}
+#box-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 160px;
+  border: 1px solid white;
+}
+#box-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 155px;
+  height: 130px;
+  border: 1px solid white;
+}
+.row-lower {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: -20px; */
+  width: 100%;
+  height: 22px;
+  border: 1px solid red;
+}
+#box-7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 333px;
+  height: 100%;
+  border: 1px solid white;
+}
+#box-8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 155px;
+  height: 100%;
+  border: 1px solid white;
+}
