@@ -159,3 +159,19 @@ hr {
   margin-left: 3px;
   background-color: rgb(117, 178, 247);
 }
+/* Social account images are added */
+#social-accounts {
+  background-color: rgb(117, 178, 247);
+}
+#social-accounts div {
+  display: flex;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: white;
+}
+i {
+  padding: 5px;
+  font-size: 1.4em;
+  color: rgb(117, 178, 247);
+}

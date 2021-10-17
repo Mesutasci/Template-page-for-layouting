@@ -105,8 +105,6 @@ main {
 #social-accounts {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 219px;
   height: 100%;
-  border: 1px solid red;
 }
