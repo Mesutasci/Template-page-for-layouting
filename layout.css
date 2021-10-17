@@ -67,26 +67,26 @@ main {
   width: 341px;
   height: 100%;
 }
+
+/* The layout of the sections of the 6. box/container */
+#cont-img {
+  width: 220px;
+  height: 224px;
+}
+#cont-button {
+  width: 100px;
+  height: 60px;
+  margin-top: -25px;
+}
 #image-small {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 219px;
-  height: 100%;
-}
-/* The layout of the sections of the 6. box/container */
-#cont-button {
-  width: 100px;
-  height: 60px;
-  margin-top: -25px;
-  border: 1px solid white;
-}
-#cont-img {
-  width: 220px;
   height: 186px;
-  border: 1px solid white;
 }
+
 /* The layout of the footer */
 .row-lower {
   display: flex;

@@ -119,3 +119,35 @@ hr {
   border-radius: 50%;
   background-color: rgb(117, 178, 247);
 }
+#cont-img {
+  background-color: rgb(117, 178, 247);
+}
+#cont-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(117, 178, 247);
+}
+.button {
+  display: flex;
+  align-content: center;
+  width: 43px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: white;
+}
+#button-on {
+  width: 22px;
+  height: 22px;
+  border-radius: 12px;
+  border: 1px solid rgb(117, 178, 247);
+}
+#button-off {
+  width: 22px;
+  height: 22px;
+  margin-left: 20px;
+  border-radius: 12px;
+  border: 1px solid white;
+
+  background-color: rgb(117, 178, 247);
+}
