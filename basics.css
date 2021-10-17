@@ -1,0 +1,23 @@
+/* Base settings */
+body,
+main {
+  margin: 0;
+  padding: 0;
+}
+/* Colors */
+body {
+  background-color: rgb(117, 178, 247);
+}
+
+#input,
+#media,
+#menu-list,
+#mobile,
+#image-big,
+#image-small,
+#cont-button,
+#cont-img,
+#search,
+#social-accounts {
+  background-color: rgb(189, 217, 236);
+}
