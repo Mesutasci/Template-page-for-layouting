@@ -58,7 +58,6 @@ main {
   align-items: center;
   width: 114px;
   height: 100%;
-  border: 1px solid white;
 }
 #image-big {
   display: flex;
