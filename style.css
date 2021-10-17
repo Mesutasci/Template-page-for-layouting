@@ -8,19 +8,24 @@ main {
 body {
   background-color: rgb(117, 178, 247);
 }
-
 /* Layout */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
 main {
   display: flex;
   flex-direction: column;
-  margin: auto;
-  width: 500px;
+  width: 710px;
 }
 .row-upper {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 100px;
+  height: 140px;
   border: 1px solid red;
 }
 #box-1 {
@@ -28,16 +33,16 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 185px;
-  height: 67px;
+  width: 261px;
+  height: 94px;
   border: 1px solid white;
 }
 #box-2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 220px;
-  height: 67px;
+  width: 311px;
+  height: 94px;
   border: 1px solid white;
 }
 #box-3 {
@@ -45,8 +50,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70px;
-  height: 99px;
+  width: 100px;
+  height: 140px;
   border: 1px solid white;
 }
 
@@ -54,9 +59,9 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  /* margin-top: -20px; */
+  /* margin-top: -30px; */
   width: 100%;
-  height: 160px;
+  height: 224px;
   border: 1px solid red;
 }
 #box-4 {
@@ -64,8 +69,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80px;
-  height: 160px;
+  width: 114px;
+  height: 100%;
   border: 1px solid white;
 }
 #box-5 {
@@ -73,8 +78,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 240px;
-  height: 160px;
+  width: 341px;
+  height: 100%;
   border: 1px solid white;
 }
 #box-6 {
@@ -82,8 +87,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 155px;
-  height: 130px;
+  width: 219px;
+  height: 100%;
   border: 1px solid white;
 }
 .row-lower {
@@ -91,7 +96,7 @@ main {
   justify-content: space-between;
   /* margin-top: -20px; */
   width: 100%;
-  height: 22px;
+  height: 32px;
   border: 1px solid red;
 }
 #box-7 {
@@ -99,7 +104,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 333px;
+  width: 473px;
   height: 100%;
   border: 1px solid white;
 }
@@ -108,7 +113,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 155px;
+  width: 219px;
   height: 100%;
   border: 1px solid white;
 }
